@@ -7,6 +7,8 @@
             <!--CSS-->
 
        <link rel="stylesheet" href="css/style.css">
+       <link rel="stylesheet" href="css/tablette.css" media="screen and (max-width:991px)">
+       <link rel="stylesheet" href="css/mobile.css"media="screen and (max-width:767px)" > 
        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
             <!--POLICE-->
 
@@ -21,7 +23,8 @@
     <header>
 
         <div id="logo">
-        <img  src="images/logo/Booki@3x.png" alt="Logo Booki">
+                <img src="images/logo/Booki@3x.png" alt="Logo Booki">
+                
         </div> 
 
         <nav>
@@ -39,44 +42,20 @@
         <section>
         <div id="description"> 
             <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
-            <p>En plein centre ville ou en pleine nature</p>
+            <span class="soustitre">En plein centre ville ou en pleine nature</span>
            
         </div>
 
-         <div class="recherche">
+         <div class="searchbox">
             <i class="fas fa-map-marker-alt"></i>
             <input type="text" placeholder="Marseille, France">
-            <button class="btn recherche">Recherche</button>
-            <button class="btn recherche mobile"><i class="fas fa-search"></i></button>
-         </div>
-            <!--FILTRES-->
+            <button>
+                <span>Rechercher</span>
+                <i class="fas fa-search"></i>
+            </button>
 
-            <h2>Filtres</h2>
-
-           <span class="filtre economique">
-               <i class="fas fa-money-bill-wave"></i>
-               <p class="txt filtre">Économique</p>
-           </span>
-           <span class="filtre familial">
-                 <i class="fas fa-child"></i>
-                 <p class="txt filtre">Familial</p>
-           </span>
-           <span class="filtre romantique">
-            <i class="fas fa-heart"></i>
-            <p class="txt filtre">Romantique</p>
-           </span>
-          <span class="filtre animaux">
-            <i class="fas fa-dog"></i>
-            <p class="txt filtre">Animaux autorisés</p>
-          </span>
-
-          
-          <!--DISPONIBILITES-->
-          
-          <div id="disponibilites">
-              <i class="fas fa-info"></i>
-              <p>Plus de 500 logements sont disponibles dans cette ville</p>
-            </div>
+        </div>
+         
         </section>
             
     </main>

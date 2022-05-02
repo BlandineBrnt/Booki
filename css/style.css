@@ -64,5 +64,72 @@ nav a{
 nav a:hover{
 color: #0065FC;
 }
+        /*MAIN*/
+ main{
+     margin:auto 5% ;
+
+        }
+        /*DESCRIPTION*/
+
+      
+h1{
+    font-size: 22px;
+    font-weight: 800;
+    margin:18px 0px 10px 0px ;
+}
+
+.soustitre{
+    font-size:16px ;
+    font-weight: 500 ;
+    margin: 10px 0px 20px 0px;
+   
+}
+
+.searchbox {
+        display: inline-flex;
+        border: 1px solid var(--grey);
+        border-radius: 15px;
+        width: auto;
+        margin: 15px 0px 15px 0px;
+        align-items: center;
+    
+    }
+
+
+.searchbox .fa-map-marker-alt{
+    display: inline-block;
+    padding: 18px;
+    font-size: 18px;
+    background-color: var(--grey);
+    border-radius: 15px 0px 0px 15px;
+}
+.searchbox input{
+    outline: none;
+    height: 30px;
+    margin-left: 10px;
+    border: none;
+    font-weight: bold;
+    font-size: 18px;
+    color: black;
+  
+}
+.searchbox ::placeholder{
+    color: black;
+    opacity: 1;
+    
+}
+.searchbox button{
+    background-color: #0065FC;
+    color: white;
+    font-size: 18px;
+    height: 54px;
+    border: none;
+    border-radius: 0px 15px 15px 0px;
+    padding: 15px;
+    cursor: pointer;
+}
+.searchbox button .fa-search{
+    display: none;
+}
 
 
