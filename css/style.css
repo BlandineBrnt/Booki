@@ -21,6 +21,8 @@ header {
         display: flex;
         justify-content: space-between;
         font-size: 15px;
+        width: 90%;
+        margin: auto;
      
        
     }
@@ -59,6 +61,7 @@ nav ul li:hover{
 nav a{
     color: black;
     text-decoration: none;
+    margin:auto 20px;
     
 }
 nav a:hover{
@@ -66,7 +69,9 @@ color: #0065FC;
 }
         /*MAIN*/
  main{
-     margin:auto 5% ;
+     width: 90%;
+     margin:auto  ;
+
 
         }
         /*DESCRIPTION*/
