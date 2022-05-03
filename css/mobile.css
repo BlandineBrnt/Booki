@@ -85,3 +85,20 @@ border-radius: 15px;
 .searchbox button .fa-search{
     display: block;
 }
+        /*FILTRES*/
+
+.filtres{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+   
+}
+h2{
+    width: 100%;
+}
+
+ 
+.icone-filtre{
+    display: flex;
+    align-content: flex-start;
+}

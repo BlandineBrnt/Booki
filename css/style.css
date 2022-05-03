@@ -132,4 +132,67 @@ h1{
     display: none;
 }
 
+        /*FILTRES*/
 
+h2{
+    font-size: 17px;
+    font-weight: 800;
+    padding-right: 20px;
+}
+.filtres{
+    display: flex;
+    align-items: center;
+    flex-wrap:wrap;
+  
+}
+.icone-filtre{
+    display: flex;
+    margin: 10px ;
+    border: 3px solid var(--grey);
+    border-radius: 30px;
+    align-items: center;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 1s;
+
+}
+.icone-filtre i{
+    background-color: var(--light-blue);
+    height: 50px;
+    width: 50px;
+    display: inline-block;
+    border-radius: 100%;
+    color: var(--blue);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.icone-filtre:hover{
+    transition: background_color 1s;
+    background-color: var(--light-blue);
+}
+.icone-filtre .texte{
+    padding: 0px 10px;
+    font-size: 18px; 
+    font-weight:800;
+
+}
+.information{
+    display: flex;
+    align-items: baseline;
+    padding: 20px 0px;
+   
+
+}
+.information .fa-info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    color: var(--blue);
+    border: 2px solid var(--grey);
+    border-radius: 100%;
+    width: 25px;
+    height: 25px;
+    font-size:15px;
+}
