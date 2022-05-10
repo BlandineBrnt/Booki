@@ -1,6 +1,7 @@
 body{
     padding: 0px;
 }
+
 header{
     display: flex;
     flex-direction: column;
@@ -8,13 +9,17 @@ header{
     width: 100%;
     
 }
+
 #logo{
 display: contents;
+
+
 }
 
-img{
-    width: 100px;
+#logo img{
+    width: 150px;
     margin-top:20px ;
+
 }
 
 nav {
@@ -23,6 +28,7 @@ nav {
     width: 100%;
    
 }
+
 ul{
     display: flex;
     width: 100%;
@@ -30,62 +36,79 @@ ul{
     
 } 
 
-li
-{
+li{
     display: flex;  
     width:100%;
     justify-content: space-around;
     margin-left:0px;
    
- }
-
-nav a
-{  
-   font-size:16px ;
-   font-weight: bold;
 }
 
+nav a{  
+   font-size:16px ;
+   font-weight: bold;
 
- nav ul li {
+}
+
+ nav ul li{
     display: flex;
     border-top: none;
-    border-bottom: 3px solid transparent;
+    border-bottom: 3px solid var(--grey);
     margin: 0px ;
     
 }
  
 nav ul li:hover{
     border-color: #0065FC;
+
 }
+
 nav a{
     color: black;
     text-decoration: none;
     font-weight: 400;
-    
-}
+    padding: 10px;
+    margin: 20px 0 0 0;
+
+}   
+
 nav a:hover{
 color: #0065FC;
+
 }
 
+
             /*MAIN*/
+
         /*DESCRIPTION*/
 
 
 #description h1{
+    margin: 30px 0px 15px 0px;
 
-    margin: 5px 0px 12px 0px;
 }
+
+.searchbox{
+    margin: 30px 0 20px 0;
+
+}
+
 .searchbox button{
-border-radius: 15px;
+    border-radius: 15px;
 
 }
+
 .searchbox button span{
     display: none;
 }
 .searchbox button .fa-search{
     display: block;
+
 }
+
+
         /*FILTRES*/
+
 
 .filtres{
     display: flex;
@@ -93,12 +116,74 @@ border-radius: 15px;
     align-items: flex-start;
    
 }
-h2{
+
+.filtres h2{
     width: 100%;
+
 }
 
- 
 .icone-filtre{
     display: flex;
     align-content: flex-start;
+    margin: 5px;
+
+}
+
+#bloc-principal{
+    background-color:white;
+}
+.liste-hebergement a{
+    min-width: 320px;
+
+}
+.liste-hebergement a article img{
+   margin: 0;
+   height: 200px;
+}
+
+
+#bloc-principal{
+    flex-direction: column-reverse;
+    margin: 5px;
+}
+.hebergement{
+    background-color: #ffffff;
+    padding: 0px 0 5px 0;
+}
+.liste-hebergement{
+    display: inline-block;
+    width: 100%;
+    max-width: 450px;
+    margin: 20px;
+    
+    
+}
+.hebergement h2{
+    margin: 30px 5px 20px 5px;
+
+}
+.liste-hebergement a{
+    display: inline;
+    box-shadow: 0 0 15px var(--grey);
+    border-radius: 25%;
+    margin-bottom: 20px;
+}
+.liste-hebergement a article{
+
+}
+.populaire{
+    width: 95%;
+    max-width: 450px;
+    margin: 0px;
+    border-radius: 0;
+    border-left: none;
+    
+}
+.nom-hotel{
+    margin-left: 10px;
+}
+
+.liste-populaires .nom-hotel .etoiles{        
+     margin: 50px 5px 0;
+
 }

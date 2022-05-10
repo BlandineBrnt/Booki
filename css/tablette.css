@@ -1,0 +1,11 @@
+.populaire{
+
+}
+.liste-populaires a article {
+flex-direction: column;
+}
+.liste-populaires a article img{
+    width: 100%;
+    object-fit: cover;
+    border-radius: 20px 20px 0 0;
+}
