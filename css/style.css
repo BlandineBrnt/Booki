@@ -6,6 +6,10 @@
     --grey:#F2F2F2;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 
         /*BODY*/
 
@@ -13,7 +17,6 @@ body{
     font-family: 'Raleway', Arial, 'Trebuchet MS',sans-serif;
     margin: 0;
     padding: 0;
-    scroll-behavior: smooth;
 }
 
         /*HEADER*/
@@ -32,6 +35,11 @@ header{
     margin: 20px 30px;
     height: 50px;
     padding: 10px;
+}
+
+
+#logo img{
+    width: 60%;
 }
  
 
@@ -189,6 +197,7 @@ h1{
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-left: -4px;
 }
 
 .icone-filtre:hover{
@@ -246,7 +255,7 @@ h1{
 .liste-hebergement{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .liste-hebergement a{
@@ -284,7 +293,10 @@ h1{
 }
 
 .nom-hotel{
-    margin: 5px;
+    margin: 2% 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .nom-hotel h3{
@@ -307,6 +319,16 @@ h1{
     font-weight: bold;
     margin-top: 25px;
     width: fit-content;
+}
+
+.afficher a{
+    color: black;
+    text-decoration: none;
+}
+
+.afficher a:hover{
+    color: var(--blue);
+    text-decoration: underline;
 }
         /*POPULAIRES*/
     

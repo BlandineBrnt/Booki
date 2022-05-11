@@ -80,8 +80,16 @@ color: #0065FC;
 
             /*MAIN*/
 
+main{
+    width: 100%;
+}
+
         /*DESCRIPTION*/
 
+#description, .filtres, .information{
+    width: 90%;
+    margin: auto;
+}
 
 #description h1{
     margin: 30px 0px 15px 0px;
@@ -89,8 +97,7 @@ color: #0065FC;
 }
 
 .searchbox{
-    margin: 30px 0 20px 0;
-
+    margin: 5% 3%;
 }
 
 .searchbox button{
@@ -131,10 +138,13 @@ color: #0065FC;
 
 #bloc-principal{
     background-color:white;
+    flex-direction: column-reverse;
+    /* margin: 5px; */
+    width: 100%;
 }
 .liste-hebergement a{
-    min-width: 320px;
-
+    /* min-width: 320px; */
+    width: 100%;
 }
 .liste-hebergement a article img{
    margin: 0;
@@ -142,42 +152,32 @@ color: #0065FC;
 }
 
 
-#bloc-principal{
-    flex-direction: column-reverse;
-    margin: 5px;
-}
 .hebergement{
     background-color: #ffffff;
-    padding: 0px 0 5px 0;
+    padding: 0 5%;
+    width: 90%;
 }
-.liste-hebergement{
-    display: inline-block;
-    width: 100%;
-    max-width: 450px;
-    margin: 20px;
-    
-    
-}
+
 .hebergement h2{
     margin: 30px 5px 20px 5px;
 
 }
 .liste-hebergement a{
     display: inline;
-    box-shadow: 0 0 15px var(--grey);
     border-radius: 25%;
-    margin-bottom: 20px;
+    margin-bottom: 5%;
 }
-.liste-hebergement a article{
 
+.liste-hebergement a article{
+    box-shadow: 0 0 15px var(--grey);
 }
+
 .populaire{
-    width: 95%;
-    max-width: 450px;
-    margin: 0px;
+    width: 90%;
+    margin: 0;
     border-radius: 0;
     border-left: none;
-    
+    padding: 0 5%;
 }
 .nom-hotel{
     margin-left: 10px;

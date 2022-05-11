@@ -1,9 +1,8 @@
-.populaire{
 
-}
 .liste-populaires a article {
 flex-direction: column;
 }
+
 .liste-populaires a article img{
     width: 100%;
     object-fit: cover;
