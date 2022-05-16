@@ -1,10 +1,20 @@
+        /*POPULAIRES*/
 
 .liste-populaires a article {
 flex-direction: column;
+justify-content: space-between;
 }
 
 .liste-populaires a article img{
     width: 100%;
     object-fit: cover;
     border-radius: 20px 20px 0 0;
+}
+
+
+        /*ACTIVITES*/
+
+#activites{
+    justify-content: space-around;
+    gap: 20px;
 }
