@@ -1,6 +1,11 @@
+        /*Body*/
+
 body{
     padding: 0px;
+
 }
+
+        /*HEADER*/
 
 header{
     display: flex;
@@ -10,8 +15,10 @@ header{
     
 }
 
+        /*LOGO*/
+
 #logo{
-display: contents;
+    display: contents;
 
 }
 
@@ -20,6 +27,7 @@ display: contents;
     margin-top:20px ;
 
 }
+        /*NAVIGATION*/
 
 nav {
     display: flex;
@@ -62,7 +70,7 @@ nav a{
 }   
 
 nav a:hover{
-color: #0065FC;
+    color: #0065FC;
 
 }
 
@@ -71,6 +79,7 @@ color: #0065FC;
 
 main{
     width: 100%;
+
 }
 
         /*DESCRIPTION*/
@@ -125,32 +134,40 @@ main{
 
 }
 
+        /*BLOC PRINCIPAL*/
+
 #bloc-principal{
     background-color:white;
     flex-direction: column-reverse;
-    /* margin: 5px; */
     width: 100%;
+
 }
+
+        /*HEBERGEMENTS A MARSEILLE*/
+
 .liste-hebergement a{
-    /* min-width: 320px; */
     width: 100%;
+
 }
+
 .liste-hebergement a article img{
    margin: 0;
    height: 200px;
-}
 
+}
 
 .hebergement{
     background-color: #ffffff;
     padding: 0 5%;
     width: 90%;
+
 }
 
 .hebergement h2{
     margin: 30px 5px 20px 5px;
 
 }
+
 .liste-hebergement a{
     display: inline;
     border-radius: 25%;
@@ -162,6 +179,8 @@ main{
     box-shadow: 0 0 15px var(--grey);
 
 }
+
+        /*LES PLUS POPULAIRES*/
 
 .populaire{
     width: 90%;
@@ -182,6 +201,8 @@ main{
      margin: 50px 5px 0;
 
 }
+
+        /*ACTIVITES A MARSEILLE*/
 
 #activites_marseilles h2{
     margin-left: 38px;
@@ -226,9 +247,7 @@ main{
 
 }
 
-
         /*FOOTER*/
-        
 
 footer{
     width: 100%;
