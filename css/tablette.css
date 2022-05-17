@@ -27,11 +27,14 @@
 
 
 .populaire{
-    width: 90%;
+    width: 100%;
     display: flex;
     background-color: white;
-
+    margin: 0;
+    padding: 0;
+    justify-content: space-between;
 } 
+
 
 .liste-populaires{
     flex-direction: row;
@@ -62,5 +65,5 @@ justify-content: space-between;
 #activites{
     justify-content: space-around;
     gap: 20px;
-    
+
 }      
