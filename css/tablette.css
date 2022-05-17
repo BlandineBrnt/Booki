@@ -1,6 +1,6 @@
-     /*BLOC PRINCIPAL*/
+    /*BLOC PRINCIPAL*/
 
-#bloc-principal{
+    #bloc-principal{
     flex-direction: column-reverse;
 
 }       
@@ -11,19 +11,19 @@
     margin: 10px;
 
 }  
-   
+    
 .liste-hebergement a{
     width: 50%;
- 
+    
 }   
 
 .liste-hebergement a article{
     margin: 10px;
 
 }   
-       
-       
-       /*POPULAIRES*/
+        
+        
+        /*POPULAIRES*/
 
 
 .populaire{
@@ -63,7 +63,7 @@ justify-content: space-between;
         /*ACTIVITES*/
 
 #activites{
-    justify-content: space-around;
+    justify-content: space-between;
     gap: 20px;
 
-}      
+}           
