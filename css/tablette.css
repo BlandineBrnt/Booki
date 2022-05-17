@@ -1,19 +1,53 @@
-        /*HEBERGEMENTS*/
-     
-.liste-hebergement a{
-    width: 100%;
+     /*BLOC PRINCIPAL*/
+
+#bloc-principal{
+    flex-direction: column-reverse;
+
 }       
+        
+        /*HEBERGEMENTS*/
+.hebergement{
+    padding: 10px;
+    margin: 10px;
+
+}  
+   
+.liste-hebergement a{
+    width: 50%;
+ 
+}   
+
+.liste-hebergement a article{
+    margin: 10px;
+
+}   
        
        
        /*POPULAIRES*/
 
+
 .populaire{
     width: 90%;
+    display: flex;
+    background-color: white;
+
 } 
+
+.liste-populaires{
+    flex-direction: row;
+
+}
+
+.liste-populaires a{
+    padding: 10px;
+    width: 30%;
+
+}
 
 .liste-populaires a article {
 flex-direction: column;
 justify-content: space-between;
+
 }
 
 .liste-populaires a article img{
@@ -28,4 +62,5 @@ justify-content: space-between;
 #activites{
     justify-content: space-around;
     gap: 20px;
-}
+    
+}      

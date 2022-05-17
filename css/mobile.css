@@ -1,4 +1,4 @@
-        /*Body*/
+         /*Body*/
 
 body{
     padding: 0px;
@@ -87,6 +87,7 @@ main{
 #description, .filtres, .information{
     width: 90%;
     margin: auto;
+
 }
 
 #description h1{
@@ -96,6 +97,7 @@ main{
 
 .searchbox{
     margin: 5% 3%;
+
 }
 
 .searchbox button{
@@ -105,7 +107,9 @@ main{
 
 .searchbox button span{
     display: none;
+
 }
+
 .searchbox button .fa-search{
     display: block;
 
@@ -189,7 +193,18 @@ main{
     border-left: none;
     padding: 0 5%;
     justify-content: space-evenly;
+    background-color: var(--grey);
 
+}
+
+.liste-populaires{
+    flex-direction: column;
+    
+}
+.liste-populaires a{
+    width: 100%;
+    justify-content: center;
+    
 }
 
 .nom-hotel{
@@ -279,4 +294,4 @@ footer li{
 .col_footer{
     width: 100%;
 
-}
+}     
